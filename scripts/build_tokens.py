@@ -60,7 +60,7 @@ def inject_tokens(config_filename, tokens):
 
     return prefix + formatted_tokens + suffix
 
-CONFIG_FILE = "bitox/config/main.json"
+CONFIG_FILE = "config/main.json"
 ETH_TOKEN = { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "decimals": 18 }
 def main(tokenbase_path):
     tokens_dir = path.join(tokenbase_path, "tokens")
@@ -90,7 +90,7 @@ def main(tokenbase_path):
             with open("tokenGuides/{}.ejs".format(listing_entry["name"]), "w", encoding="utf8") as f:
                 f.write(guide)
 
-    new_config = inject_tokens("bitox/config/main.json", tokens)
+    new_config = inject_tokens("config/main.json", tokens)
     with open(CONFIG_FILE, "w") as f:
         f.writelines(new_config)
 
