@@ -3,7 +3,14 @@
   "contractToken": "smart_contract/token.sol",
   "contractReserveToken": "smart_contract/reservetoken.sol",
   "contractEtherDeltaAddrs": [
-    { "addr": "0xb5adb233f28c86cef693451b67e1f2d41da97d21", "info": "Deployed 04/27/2018 -- THE CURRENT SMART CONTRACT" }
+    { "addr": "0x8d12a197cb00d4747a1fe03395095ce2a5cc6819", "info": "Deployed 02/09/2017 -- THE CURRENT SMART CONTRACT" },
+    { "addr": "0x2A575f3B0CE5ad9002c6FF7A24d275761F44AF2d", "info": "Deployed 01/08/2017 -- AmisDEX SMART CONTRACT experimental" },
+    { "addr": "0xb5adb233f28c86cef693451b67e1f2d41da97d21", "info": "Deployed 04/27/2018 -- Bitox CURRENT SMART CONTRACT" }
+    { "addr": "0x228344536a03c0910fb8be9c2755c1a0ba6f89e1", "info": "ED Ropsten Testnet Deployed 02/09/2017" },
+    { "addr": "0x373c55c277b866a69dc047cad488154ab9759466", "info": "Deployed 10/24/2016 -- OLD, DO NOT USE" },
+    { "addr": "0x4aea7cf559f67cedcad07e12ae6bc00f07e8cf65", "info": "Deployed 08/30/2016 -- OLD, DO NOT USE" },
+    { "addr": "0x2136bbba2edca21afdddee838fff19ea70d10f03", "info": "Deployed 08/03/2016 -- OLD, DO NOT USE" },
+    { "addr": "0xc6b330df38d6ef288c953f1f2835723531073ce2", "info": "Deployed 07/08/2016 -- OLD, DO NOT USE" }
   ],
   "ethTestnet": false,
   "ethChainId": 1,
@@ -15,13 +22,13 @@
   "gasDeposit": 250000,
   "gasWithdraw": 250000,
   "gasTrade": 250000,
-  "gasOrder": 250000,
+  "gasOrder": 250000,  
   "minOrderSize": 0.000001,
-  "socketServer": "https://backend.bitox.io",
-  "userCookie": "Bitox",
-  "eventsCacheCookie": "Bitox_eventsCache",
-  "ordersCacheCookie": "Bitox_ordersCache",
-  "etherscanAPIKey": "EMIKF1JZBX7IXH4GCG1294CWIXXN2R85A3",
+  "socketServer": "https://api.etherdelta.com",
+  "userCookie": "EtherDelta",
+  "eventsCacheCookie": "EtherDelta_eventsCache",
+  "ordersCacheCookie": "EtherDelta_ordersCache",
+  "etherscanAPIKey": "GCGR1C9I17TYIRNYUDDEIJH1K5BRPH4UDE",
   "ledgerPath": "m/44'/60'/0'/0",
   "bases": [
     { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "decimals": 18 }
