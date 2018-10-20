@@ -3,7 +3,8 @@
   "contractToken": "smart_contract/token.sol",
   "contractReserveToken": "smart_contract/reservetoken.sol",
   "contractEtherDeltaAddrs": [
-    { "addr": "0xb5adb233f28c86cef693451b67e1f2d41da97d21", "info": "Deployed 04/27/2018 -- THE CURRENT SMART CONTRACT" }
+    { "addr": "0xA86e95131F5cDc7239C7DD70a1C7Df87a384f9EF", "info": "Ndex Deployed 07/24/2018 -- THE CURRENT SMART CONTRACT" },
+    { "addr": "0xb5adb233f28c86cef693451b67e1f2d41da97d21", "info": "Bitox Deployed 04/27/2018 -- THE CURRENT SMART CONTRACT" }
   ],
   "ethTestnet": false,
   "ethChainId": 1,
@@ -17,17 +18,19 @@
   "gasTrade": 250000,
   "gasOrder": 250000,
   "minOrderSize": 0.000001,
-  "socketServer": "https://backend.bitox.io",
-  "userCookie": "Bitox",
-  "eventsCacheCookie": "Bitox_eventsCache",
-  "ordersCacheCookie": "Bitox_ordersCache",
-  "etherscanAPIKey": "EMIKF1JZBX7IXH4GCG1294CWIXXN2R85A3",
+  "socketServer": "#nDEX",
+  "socketServer": "https://server.ndex.market",
+  "userCookie": "nDEX",
+  "eventsCacheCookie": "nDEX_eventsCache",
+  "ordersCacheCookie": "nDEX_ordersCache",
+"etherscanAPIKey": "SEZKUH85YGA3PA56YXQI8AMYAZ1AH3YGPS",
   "ledgerPath": "m/44'/60'/0'/0",
   "bases": [
     { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "decimals": 18 }
   ],
   "tokens": [
     { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "decimals": 18 },
+    { "addr": "0x949bEd886c739f1A3273629b3320db0C5024c719", "name": "AMIS", "decimals": 9 }, 
     { "addr": "0x006bea43baa3f7a6f765f14f10a1a1b08334ef45", "name": "STX", "decimals": 18 },
     { "addr": "0x009e864923b49263c7f10d19b7f8ab7a9a5aad33", "name": "FKX", "decimals": 18 },
     { "addr": "0x00a0cbe98e4d110b0fa82646152d77babf2951d0", "name": "EETHER", "decimals": 18 },
